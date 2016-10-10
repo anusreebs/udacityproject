@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Myproject</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/projectstyles.css" >
+</head>
+<body>
+	<div class="container">
+	<!--webpage header-->
+		<header>
+		  <div class="row">
+			<div class="page-header text-center text-uppercase visible-xs visible-sm">
+    			<img class="title-logo" src="img/udacitylogo.png" alt="logo">
+      			<h1 class="title-super text-thin visible-xs-block visible-sm-block">Jane Doette</h1>
+      			<h3>Front-end Ninja</h3>  
+    		</div>
+    		<div class="col-md-4 col-md-offset-2 logo visible-md visible-lg">
+    			<img class="title-logo" src="img/udacitylogo.png" alt="logo">
+    		</div>
+    		<div class="col-md-6 text-right text-uppercase visible-md visible-lg">
+      			<h1 class="title-super text-thin">Jane Doette</h1>
+      			<h3>Front-end Ninja</h3>  
+    		 </div>
+    	  </div>
+    	  <!--end of header-->
+		</header>
+		<!--color box starts-->
+		<aside class="col-md-2">
+			<div class="col-md-12 col-xs-12 col-sm-12">
+            	<div class="rectangle color1 center-block"></div>
+      		</div>
+      		<span class="text-center col-md-12 col-xs-12 col-sm-12 txt">#02b3e4</span>
+      		<div class="col-md-12 col-xs-12 col-sm-12">
+         		<div class="rectangle color2 center-block"></div>
+      		</div>
+      		<span class="text-center col-md-12 col-xs-12 col-sm-12 txt">#2d3c49</span>
+       		<div class="col-md-12 col-xs-12 col-sm-12">
+         		<div class="rectangle color3 center-block"></div>
+       		</div> 
+       		<span class="text-center col-md-12 col-xs-12 col-sm-12 txt">#7d97ad</span>
+		</aside>
+		<!--end of color box section-->
+		<!--portfolio section starts-->
+		<section class="portfolio-section">
+			<div class="col-md-10 main_img col-sm-10">
+			<hr>
+    	    	<img src="img/img1.jpg" class="img-responsive" alt="banner image">
+    		</div>
+    		<div class="col-md-10 col-md-offset-2">
+    			<h2 class="thin-muted">Featured Work</h2>
+   			 </div>
+    		<div class="col-md-10 col-md-offset-2">
+            	<div class="col-md-4 col-sm-12">
+            		<img src="img/img2.jpg" class="img-responsive" data-toggle="modal" data-target="#myapp1" alt="kittens image">
+					<h3>KITTEN</h3>
+    				<p><a>https://github.com/udacity/kitten</a></p>
+    			</div>
+    			<div class="col-md-4 col-sm-12">
+    				<img src="img/img4.jpg" class="img-responsive" data-toggle="modal" data-target="#myapp2" alt="pets image">
+    				<h3>PET SHOP</h3>
+    				<p><a>https://github.com/udacity/petshop</a></p>
+    			</div>
+  	 			<div class="col-md-4 col-sm-12">
+    				<img src="img/img3.jpg" class="img-responsive" data-toggle="modal" data-target="#myapp3" alt="puppyss image">
+    				<h3>PUPPY</h3>
+    				<p><a>https://github.com/udacity/puppy</a></p>
+    			</div>
+    		</div>
+	        <!--Modals-->
+		    <div class="modal fade" id="myapp1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true"> 
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<div class="modal-header">
+        					<h4 class="modal-title" id="myModalLabel1">Kittens</h4>
+      					</div>
+      					<div class="modal-body">
+          					<img class="img-responsive" src="img/img2.jpg" alt="kittens">
+        						The domestic cat or the feral cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines
+     					</div>
+      					<div class="modal-footer">
+        					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      					</div>
+    				</div>
+  				</div>
+			</div>
+			<div class="modal fade" id="myapp2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true"> 
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<div class="modal-header">
+        					<h4 class="modal-title" id="myModalLabel2">Pet</h4>
+      					</div>
+      					<div class="modal-body">
+          					<img class="img-responsive" src="img/img4.jpg" alt="pets">
+        						A pet store or pet shop is a retail business which sells different kinds of animals to the public. A variety of animal supplies and pet accessories are also sold in pet shops. The products sold include: food, treats, toys, collars, leashes, cat litter, cages and aquariums.
+     					 </div>
+     					<div class="modal-footer">
+        					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      					</div>
+    				</div>
+  				</div>
+			</div>
+			<div class="modal fade" id="myapp3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true"> 
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+     					 <div class="modal-header">
+        					<h4 class="modal-title" id="myModalLabel3">Puppy</h4>
+      					</div>
+     					 <div class="modal-body">
+          					<img class="img-responsive" src="img/img3.jpg" alt="puppy">
+        						Dogs (Canis lupus familiaris) are domesticated mammals, not natural wild animals. They were originally bred from wolves. ... Sometimes people also use "dog" to describe other canids, such as wolves. A baby dog is called a pup or puppy.
+      						</div>
+      					<div class="modal-footer">
+       						 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+     					 </div>
+    				</div>
+  				</div>
+			</div>
+			<!--portfolio section ends-->
+		</section>
+    </div>
+    <script src="bootstrap/js/jquery-3.1.0.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
